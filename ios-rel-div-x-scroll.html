@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ios-x-scroll-test-relative-position</title>
+    <style>
+      html {
+        background: black;
+      }
+      body {
+        background: white;
+      }
+      .top-level {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow-x: hidden;
+      }
+      .top-level div {
+        background: papayawhip;
+        width: 200vw;
+        height: 200vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-level">
+      <div><p>This should have y but not x scroll.</p></div>
+    </div>
+  </body>
+</html>
