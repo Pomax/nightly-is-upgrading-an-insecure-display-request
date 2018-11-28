@@ -2,13 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ios-scroll-x-test</title>
+    <title>ios-no-x-scroll-test-relative-position</title>
     <style>
-      html { color:white; position:relative; overflow-x: hidden; }
-      body { color:papayawhip; width: 200vw; height: 200vh; }
+      html { color: white; position:relative; overflow-x: hidden; }
+      div { background: papayawhip; width: 200vw; height: 200vh; }
     </style>
   </head>
   <body>
-    <p>This should not have x scroll, but should have y scroll.</p>
+    <div>
+      <p>This should have y but not or x scroll.</p>
+    </div>
   </body>
 </html>
